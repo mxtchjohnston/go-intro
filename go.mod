@@ -2,8 +2,6 @@ module example/hello
 
 go 1.22.0
 
-require rsc.io/quote v1.5.2
-
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
@@ -33,5 +31,4 @@ require (
 require (
 	github.com/gin-gonic/gin v1.9.1
 	golang.org/x/text v0.9.0 // indirect
-	rsc.io/sampler v1.3.0 // indirect
 )
